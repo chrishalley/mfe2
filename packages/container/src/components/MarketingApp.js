@@ -16,6 +16,7 @@ export default () => {
   }
 
   useEffect(() => {
+    const bullshit = 'bullshit'
     const { onParentNavigate } = mount(
       marketingRef.current,
       {

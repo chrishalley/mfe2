@@ -6,7 +6,9 @@ import App from './App'
 
 // Mount function to start the app
 const mount = (el, { onNavigate, defaultHistory, initialPath }) => {
+  const msg = 'hello'
   console.log('marketing', { onNavigate, defaultHistory, initialPath })
+  const world = 'world'
   const history = defaultHistory || createMemoryHistory({
     initialEntries: [initialPath]
   })

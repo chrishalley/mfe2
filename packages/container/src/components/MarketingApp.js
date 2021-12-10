@@ -16,7 +16,7 @@ export default () => {
   }
 
   useEffect(() => {
-    const bullshit = 'bullshit'
+    const bullshit = console.log('MarketingApp', { handleNavigation })
     const { onParentNavigate } = mount(
       marketingRef.current,
       {

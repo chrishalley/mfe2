@@ -16,6 +16,7 @@ export default () => {
   }
 
   useEffect(() => {
+    console.log('container', { onNavigate, initialPath })
     const { onParentNavigate } = mount(
       marketingRef.current,
       {
